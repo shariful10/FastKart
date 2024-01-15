@@ -4,7 +4,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>FastKart</title>
-      <!-- Bootstrap CDN Link -->
+		<!-- Stylesheet -->
+		<link href="index.css" rel="stylesheet" />
+		<!-- Bootstrap CDN Link -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -13,9 +15,323 @@
 		/>
 	</head>
 	<body>
-		<div class="">
-         <header class=""></header>
-      </div>
+		<header class="pb-md-4 pb-0">
+			<div class="header-top">
+				<div class="container-fluid-lg">
+					<div class="header-top-container">
+						<div class="col-xxl-3 d-xxl-block d-none">
+							<div class="top-left-header">
+								<a target="_blank" class="text-white"
+									><span class="text-white">Become a Seller</span></a
+								>
+							</div>
+						</div>
+						<div class="col-xxl-6 col-lg-9 d-lg-block d-none pt-1">
+							<div class="header-offer">
+								<div>
+									<div class="mainSlider">
+										<div>
+											<div class="middle-header">
+												<div class="middle-content">
+													<p>
+														<span
+															><strong class="me-1"
+																>Welcome to Fastkart!</strong
+															>Wrap new offers/gift every single
+															day on Weekends.<strong
+																class="ms-1"
+																>New Coupon Code: FAST50</strong
+															></span
+														>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<ul class="about-list right-nav-about">
+								<li class="right-nav-list">
+									<div class="dropdown theme-form-select">
+										<div>
+											<div class="modal-content">
+												<button
+													class="btn dropdown-toggle text-white"
+													id="open_dropdown_basic_btn"
+													type="button"
+												>
+													<div class="iti-flag us"></div>
+													<span>English</span>
+												</button>
+												<ul
+													class="dropdown-menu dropdown-menu-end language-dropdown"
+												>
+													<li>
+														<button class="dropdown-item">
+															<div class="iti-flag us"></div>
+															<span>English</span>
+														</button>
+													</li>
+													<li>
+														<button class="dropdown-item">
+															<div class="iti-flag fr"></div>
+															<span>Français</span>
+														</button>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="right-nav-list">
+									<div class="dropdown theme-form-select select-arrow">
+										<div>
+											<div class="modal-content">
+												<div class="dropdown theme-form-select">
+													<button
+														class="btn dropdown-toggle text-white"
+														id="open_dropdown_basic_btn"
+														type=""
+													>
+														<span>USD</span>
+													</button>
+													<ul
+														class="dropdown-menu dropdown-menu-end sm-dropdown-menu"
+													>
+														<li>
+															<a
+																class="dropdown-item"
+																id="aud"
+																href="javascript:void(0)"
+																>USD</a
+															>
+														</li>
+														<li>
+															<a
+																class="dropdown-item"
+																id="aud"
+																href="javascript:void(0)"
+																>INR</a
+															>
+														</li>
+														<li>
+															<a
+																class="dropdown-item"
+																id="aud"
+																href="javascript:void(0)"
+																>GBP</a
+															>
+														</li>
+														<li>
+															<a
+																class="dropdown-item"
+																id="aud"
+																href="javascript:void(0)"
+																>EUR</a
+															>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-nav header-middle">
+				<img class="logo" src="images/1.png" alt="" />
+				<div class="input-search">
+					<div class="input-group">
+						<input
+							type="search"
+							class="form-control"
+							placeholder="Search Hear..."
+							value=""
+						/><button class="btn" type="button" id="button-addon2">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="icon"
+								width="24px"
+								height="24px"
+								viewBox="0 0 24 24"
+								data-v-cf1ec82f=""
+							>
+								<path
+									fill="currentColor"
+									d="m18.031 16.617l4.283 4.282l-1.415 1.415l-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9s9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617m-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.867-3.133-7-7-7s-7 3.133-7 7s3.133 7 7 7a6.977 6.977 0 0 0 4.875-1.975z"
+								></path>
+							</svg>
+						</button>
+					</div>
+				</div>
+				<div class="rightside-box d-flex align-items-center gap-2">
+					<div class="d-flex align-items-center gap-2 delivary-details">
+						<div class="delivery-icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="icon"
+								width="28px"
+								height="28px"
+								viewBox="0 0 24 24"
+								data-v-cf1ec82f=""
+							>
+								<path
+									fill="currentColor"
+									d="M22 17.002a6.002 6.002 0 0 1-4.713 5.86l-.638-1.914A4.003 4.003 0 0 0 19.465 19H17a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.938a8.001 8.001 0 0 0-15.876 0H7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5C2 6.477 6.477 2 12 2s10 4.477 10 10v5zM20 17v-4h-3v4zM4 13v4h3v-4z"
+								></path>
+							</svg>
+						</div>
+						<div class="delivery-detail">
+							<h6>24/7 Support Center</h6>
+							<h5>+1-555-186-5359</h5>
+						</div>
+					</div>
+					<div class="delivary-details nav-icon">
+						<a
+							href="/wishlist"
+							class="btn p-0 position-relative header-wishlist"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="icon"
+								width="28px"
+								height="28px"
+								viewBox="0 0 24 24"
+								data-v-cf1ec82f=""
+							>
+								<path
+									fill="currentColor"
+									d="M16.5 3C19.538 3 22 5.5 22 9c0 7-7.5 11-10 12.5C9.5 20 2 16 2 9c0-3.5 2.5-6 5.5-6C9.36 3 11 4 12 5c1-1 2.64-2 4.5-2m-3.566 15.604a26.752 26.752 0 0 0 2.42-1.701C18.335 14.533 20 11.943 20 9c0-2.36-1.537-4-3.5-4c-1.076 0-2.24.57-3.086 1.414L12 7.828l-1.414-1.414C9.74 5.57 8.576 5 7.5 5C5.56 5 4 6.657 4 9c0 2.944 1.666 5.533 4.645 7.903c.745.593 1.54 1.146 2.421 1.7c.299.189.595.37.934.572c.339-.202.635-.383.934-.571"
+								></path></svg></a
+						><!---->
+					</div>
+					<div class="delivary-details nav-icon">
+						<div class="position-relative">
+							<button
+								class="btn p-0 header-wishlist"
+								id="cart_sidebar_btn"
+								type="button"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="icon"
+									width="28px"
+									height="28px"
+									viewBox="0 0 24 24"
+									data-v-cf1ec82f=""
+								>
+									<path
+										fill="currentColor"
+										d="M4.005 16V4h-2V2h3a1 1 0 0 1 1 1v12h12.438l2-8H8.005V5h13.72a1 1 0 0 1 .97 1.243l-2.5 10a1 1 0 0 1-.97.757H5.004a1 1 0 0 1-1-1m2 7a2 2 0 1 1 0-4a2 2 0 0 1 0 4m12 0a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+									></path></svg
+								><span class="position-absolute badge"
+									>1
+									<span class="visually-hidden"
+										>Unread Messages</span
+									></span
+								>
+							</button>
+						</div>
+					</div>
+					<div class="delivery-login-box">
+						<div class="delivery-icon">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="icon"
+								width="28px"
+								height="28px"
+								viewBox="0 0 24 24"
+								data-v-cf1ec82f=""
+							>
+								<path
+									fill="currentColor"
+									d="M20 22h-2v-2a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3v2H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5zm-8-9a6 6 0 1 1 0-12a6 6 0 0 1 0 12m0-2a4 4 0 1 0 0-8a4 4 0 0 0 0 8"
+								></path>
+							</svg>
+						</div>
+						<div class="delivery-detail">
+							<h6>Hi , User</h6>
+							<h5>My Account</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<button class="categoriy-btn">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						aria-hidden="true"
+						role="img"
+						class="icon f-w-600 me-2"
+						width="24px"
+						height="24px"
+						viewBox="0 0 24 24"
+						data-v-cf1ec82f=""
+					>
+						<path
+							fill="currentColor"
+							d="M6.75 2.5A4.25 4.25 0 0 1 11 6.75V11H6.75a4.25 4.25 0 0 1 0-8.5M9 9V6.75A2.25 2.25 0 1 0 6.75 9zm-2.25 4H11v4.25A4.25 4.25 0 1 1 6.75 13m0 2A2.25 2.25 0 1 0 9 17.25V15zm10.5-12.5a4.25 4.25 0 0 1 0 8.5H13V6.75a4.25 4.25 0 0 1 4.25-4.25m0 6.5A2.25 2.25 0 1 0 15 6.75V9zM13 13h4.25A4.25 4.25 0 1 1 13 17.25zm2 2v2.25A2.25 2.25 0 1 0 17.25 15z"
+						></path>
+					</svg>
+					<span>All Categories</span>
+				</button>
+				<ul class="menu-items">
+					<li class="d-flex align-items-center gap-4">
+						<a class="menu-item" href="/">Home</a
+						><a class="menu-item" href="#">Collection</a
+						><a class="menu-item" href="#">Product</a
+						><a class="menu-item" href="#">Mega Menu</a
+						><a class="menu-item" href="#">Blog</a
+						><a class="menu-item" href="#">Pages</a
+						><a class="menu-item" href="#">Seller</a>
+					</li>
+				</ul>
+				<button class="btn deal-button">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						aria-hidden="true"
+						role="img"
+						class="icon"
+						width="28px"
+						height="28px"
+						viewBox="0 0 24 24"
+						data-v-cf1ec82f=""
+					>
+						<path
+							fill="currentColor"
+							d="M13 9h8L11 24v-9H4l9-15zm-2 2V7.22L7.532 13H13v4.394L17.263 11z"
+						></path></svg
+					><span>Deal Today</span>
+				</button>
+			</div>
+		</header>
+		<section class="home-section pt-2 pb-2">
+         <div class="d-flex align-items-center justify-content-between images">
+            <img class="img-1" src="https://laravel.pixelstrap.net/fastkart/storage/651/osaka_03.jpg" alt="">
+            <img class="img-2" src="https://laravel.pixelstrap.net/fastkart/storage/652/osaka_04.jpg" alt="">
+         </div>
+      </section>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
